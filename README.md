@@ -1,3 +1,5 @@
+**DEPRECIATED**
+
 # Natural Language API
 
 This repo provides an example of how to use [Google's NaturalLanguage 
