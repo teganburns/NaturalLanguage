@@ -12,9 +12,9 @@ CPP_TARGET=main
 
 all: main_cpp
 
-main_cpp: main.o
-	$(CXX) $(CXXFLAGS) $(INC) $^ $(LDFLAGS) $(LIBS) -o $@
+main_cpp:
+	$(CXX) $(CXXFLAGS) $(INC) $(LDFLAGS) $(LIBS) $(CPP_TARGET).cpp -o $(CPP_TARGET)
 
 
 clean:
-	$(RM) $(CPP_TARGET)_cpp main.o
+	$(RM) $(CPP_TARGET)
